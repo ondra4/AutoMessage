@@ -38,7 +38,7 @@ public class AutoMessager extends JavaPlugin implements CommandExecutor {
         getConfig().addDefault("timer", 10);
 
         List<String> defaultMessages = new ArrayList<String>();
-        defaultMessages.add("&eThis is default message 1, Please change this in &cconfig.yml");
+        defaultMessages.add("&c&lInfo &f&lNezapomen nás sledovat na ig-@mc-mine");
         defaultMessages.add("&cThis is default message 2, You can change this in &cconfig.yml");
         defaultMessages.add("&fThis is default message 3, You can change this in &cconfig.yml");
         defaultMessages.add("&bThis is default message 4, You can change this in &cconfig.yml");
